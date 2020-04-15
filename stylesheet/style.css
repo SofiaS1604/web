@@ -1,0 +1,79 @@
+@font-face {
+    font-family: "YS Text";
+    src: url("../fonts/YandexSansDisplay-Thin.woff");
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    font-family: "YS Text", "Helvetica", "Arial", sans-serif;
+}
+
+header {
+    height: 75px;
+    box-shadow: 0 5px 12px rgba(1, 1, 1, 0.5);
+    position: relative;
+    z-index: 3;
+}
+
+.full-screen {
+    margin-top: -75px;
+    height: 100vh;
+    background-image: url("../images/WEB2.jpg");
+    background-size: cover;
+    background-position-x: center;
+    background-attachment: fixed;
+    position: relative;
+    z-index: 2;
+    box-shadow: 0 5px 12px rgba(1, 1, 1, 0.5);
+}
+
+body {
+    height: 20000px;
+    background: #070717;
+}
+
+.logo {
+    font-size: 32px;
+    color: white;
+}
+
+header {
+    padding-left: 50px;
+    padding-right: 75px;
+    display: flex;
+    align-items: center;
+    font-weight: bold;
+}
+
+.navigation {
+    display: flex;
+    flex: 1;
+    justify-content: flex-end;
+    color: white;
+    align-items: center;
+}
+
+.navigation ul{
+    display: flex;
+    margin-left: 25px;
+}
+
+.navigation_item{
+    font-size: 20px;
+    list-style: none;
+    cursor: pointer;
+}
+
+.navigation_item:hover{
+    border-bottom-color: white;
+}
+
+.navigation_item+.navigation_item{
+    margin-left: 50px;
+}
+
+.main {
+    display: flex;
+    flex-direction: column;
+}
