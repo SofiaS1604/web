@@ -19,7 +19,7 @@ header {
 .full-screen {
     margin-top: -75px;
     height: 100vh;
-    background-image: url("../images/WEB2.jpg");
+    background-image: url("../images/web.jpg");
     background-size: cover;
     background-position-x: center;
     background-attachment: fixed;
